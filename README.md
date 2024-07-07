@@ -50,8 +50,8 @@ Configure the agent by editing the `config.json` file with your API keys and des
 
 ## Usage
 
-Run the main script to start the analysis:
-```sh
+To run the project, use the following command:
+```python
 python main.py
 ```
 
