@@ -29,8 +29,7 @@ class Agent():
         'Please provide only the predicted price as a single number.\n' \
 
     def predict(self, date: datetime, verbose: bool = False) -> float:
-        # stock_history_data = self._get_stock_history_data(date)
-        stock_history_data = []
+        stock_history_data = self._get_stock_history_data(date)
         stock_news_titles = self._get_stock_news_titles(date)
         inputs = self.template.format(stock_history_data=stock_history_data, stock_news_titles=stock_news_titles)
         if verbose:

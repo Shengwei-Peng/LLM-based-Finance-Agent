@@ -1,5 +1,7 @@
 # LLM based Finance Agent
 
+![agent](imgs/agent.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -18,7 +20,7 @@ LLM based Finance Agent is a powerful tool that leverages large language models 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Shengwei0516/LLM-based-Finance-Agent.git
+    git clone https://github.com/Shengwei-Peng/LLM-based-Finance-Agent.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -50,10 +52,12 @@ Configure the agent by editing the `config.json` file with your API keys and des
 
 ## Usage
 
-To run the project, use the following command:
-```python
-python main.py
-```
+1. Ensure that you have configured the config.json file as described in the [Configuration](#configuration) section.
+
+2. Run the project using the following command:
+    ```python
+    python main.py
+    ```
 
 ## Contributing
 
